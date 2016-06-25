@@ -1,0 +1,33 @@
+<html>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+
+    <body>
+        <div class="content">
+            <div class="controls">
+                <div class="remaining">&nbsp;</div>
+                <div class="remaining-minutes">&nbsp;</div>
+                <div class="checked-out"></div>
+                <div class="buttons">
+                    <button class="checkout">check out</button>
+                    <button class="checkin">check in</button>
+                </div>
+            </div>
+
+            <div class="current-session">
+                checked out at <span class="start"></span>, used <span class="duration"></span>m so far
+            </div>
+
+            <h1 class="history">History</h1>
+            <div class="history">
+            </div>
+
+            <button class="reset">reset</button
+        </div>
+
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.13.0/moment.min.js"></script>
+        <script src="http://coffeescript.org/extras/coffee-script.js"></script>
+
+        <script src="scripts.coffee" type="text/coffeescript"></script>
+    </body>
+</html>
